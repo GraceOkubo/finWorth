@@ -1,6 +1,6 @@
-# finworth
+# vue-demo
 
-> Personal Financial Worth Calculator
+
 
 ## Build Setup
 
