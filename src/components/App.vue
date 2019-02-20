@@ -6,7 +6,7 @@
  <nav class="nav">
  <div class="container">
  <div class="nav-left">
- <router-link to="/" class="nav-item">finWorth</router-link>
+ <router-link to="/" class="nav-item">vue-demo</router-link>
  </div>
  <span class="nav-toggle">
  <span></span>
