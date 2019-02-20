@@ -14,6 +14,7 @@
  <span></span>
  </span>
  <div class="nav-right nav-menu">
+ <a class="nav-item" href='support@stickly.com'>
  Contact
  </a>
  </div>

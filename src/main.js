@@ -12,12 +12,15 @@ if (process.env.NODE_ENV === 'production') {
  
  import Vue from 'vue'
  import VueRouter from 'vue-router'
+ import Vuetify from 'vuetify'
+ import 'vuetify/dist/vuetify.min.css'
  import App from './components/App.vue'
  import Product from './components/Product.vue'
  import Order from './components/Order.vue'
  import Complete from './components/Complete.vue'
  
  Vue.use(VueRouter);
+ Vue.use(Vuetify);
  
  // Register routes
  const routes = [
@@ -37,5 +40,6 @@ if (process.env.NODE_ENV === 'production') {
   data(){
       return {};
   },
-  render: h => h(App)
+  render: h => h(App),
+  template: '<App/>'
  }) 
