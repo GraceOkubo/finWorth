@@ -121,8 +121,8 @@ export default {
    stripeKey: 'YOUR_STRIPE_PUBLIC_KEY',
 
 // fields
-   name: 'Connor Leech',
-   email: 'connor@employbl.com',
+   name: 'john doe',
+   email: 'johndoe@employbl.com',
    specialNote: 'This is the text to put on the bundle of sticks',
    address: {
      street: '123 Something Lane',
